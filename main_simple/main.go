@@ -7,6 +7,8 @@ import (
 	"syscall"
 )
 
+// Usage: go run main.go run /bin/bash
+
 func main() {
 	switch os.Args[1] {
 	case "run":
